@@ -1,0 +1,28 @@
+
+[.preface]
+== Document History
+
+Changes to this Specification are coordinated by the Nautical Information
+Provision Working Group, an IHO working group under HSSC. New editions
+will be made available via the IHO web site. Maintenance of the Specification
+shall conform to IHO Resolution 2/2007 (as amended).
+
+[cols="a,a,a,a",options="unnumbered"]
+|===
+h| Version Number h| Date h| Approved By h| Purpose
+
+| 0.0.0 | 30.04.2017 | |
+
+| 1.0.0 RC1 | 17-08-2017 | |
+
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+| | | |
+
+|===
