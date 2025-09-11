@@ -151,7 +151,7 @@ information type.
 image::figure-4.png[]
 
 The IHO definition for the *RadioStation* feature type is "a place
-equipped to transmit radio waves…, and may also be provided with a
+equipped to transmit radio waves..., and may also be provided with a
 radio receiver". A radio station could be remote controlled, which
 is modeled by using the boolean type attribute *remoteControlled*
 of the *RadioStation* feature type and an association to a *RadioControlCenter*
@@ -837,4 +837,4 @@ must be followed.
 
 The CRS shall be EPSG code 4326 and identified using the URI convention
 for SRS specified by OGC, which is http://www.opengis.net/def/crs/EPSG/0/4326"
-(Quote <<IHO_S_100>> Ed.5.2.0 10b-11.7.). The axis order is latitude/longitude.
+(Quote <<IHO_S_100,clause=10b-11.7>>.). The axis order is latitude/longitude.
