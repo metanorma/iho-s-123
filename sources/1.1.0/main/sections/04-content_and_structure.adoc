@@ -94,7 +94,11 @@ image::figure-1.png[]
 ===== Overview of domain features and information types
 
 Marine Radio services data products include marine radio stations
-and services as well as safety and information broadcasts and radiocommunications. The scope of the S-123 domain model therefore includes NAVTEX, weather or ice forecasts and warnings, NAVAREAs and METAREAs defined by IMO and WMO, GMDSS sea areas declared by Coastal States. In addition, radio services providing IP-connectivity coverage are included in the domain model of S-123.
+and services as well as safety and information broadcasts and radiocommunications.
+The scope of the S-123 domain model therefore includes NAVTEX, weather or ice
+forecasts and warnings, NAVAREAs and METAREAs defined by IMO and WMO, GMDSS sea areas
+declared by Coastal States. In addition, radio services providing IP-connectivity
+coverage are included in the domain model of S-123.
 
 [[fig_4-2]]
 .Overview of S-123 Feature Types

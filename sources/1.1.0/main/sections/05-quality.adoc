@@ -236,8 +236,7 @@ Domain consistency is applicable for S-123 and follows the guidelines
 from <<IHO_S_100,part=5 -- Feature Catalogue>>.
 
 Data Producers must verify that the dataset conforms to the S-123
-Feature Catalogue and rules described in S-123 Annex A --
-_Data Classification and Encoding Guide_. IHO Publications S-158:100
+Feature Catalogue and rules described in <<AnnexA>>. IHO Publications S-158:100
 -- _S-100 Validation Checks_ and/or S-158:123 -- _S-123 Validation Checks_,
 provide validation checks which verify this conformance.
 
@@ -280,13 +279,12 @@ or S-158:123 are reported the dataset PASSES this test.
 ===== Absolute or external accuracy
 
 Absolute or external accuracy is applicable for S-123 and follows
-the guidelines from <<IHO_S_100,part=4c - Metadata - Data Quality>>.
+the guidelines from <<IHO_S_100,part=4c>>.
 
 Data Producers must verify the absolute accuracy of S-123 datasets
 and ensure that they achieve an adequate accuracy. Additionally,
-the relevant metadata features and attributes as described in S-123
-Annex A -- _Data Classification and Encoding Guide_, must be populated
-where applicable.
+the relevant metadata features and attributes as described in <<AnnexA>>,
+must be populated where applicable.
 
 Accuracy computations for Positional Accuracy / Absolute or External
 Accuracy should use the following recommendations:
@@ -302,8 +300,8 @@ E = Denominator of intended scale of mapping
 
 Data Producers must verify the horizontal position accuracy of S-123
 datasets and ensure that they achieve an adequate accuracy.
-The relevant metadata features and attributes as described in S-123
-Annex A -- _Data Classification and Encoding Guide_, should be populated
+The relevant metadata features and attributes as described in <<AnnexA>>,
+should be populated
 to reflect the horizontal position accuracy.
 
 [[sec_5.2.4]]
@@ -313,12 +311,12 @@ to reflect the horizontal position accuracy.
 ===== Thematic classification correctness
 
 Thematic classification correctness is applicable for S-123 and follows
-the guidelines from <<IHO_S_100,part=4c - Metadata - Data Quality>>.
+the guidelines from <<IHO_S_100,part=4c>>.
 
 Data Producers must verify that features have been encoded correctly
 when included in the S-123 dataset. Encoded features must conform
-to the S-123 Feature Catalogue and the rules described in the S-123
-Annex A -- _Data Classification and Encoding Guide_. IHO Publications
+to the S-123 Feature Catalogue and the rules described in the
+<<AnnexA>>. IHO Publications
 S-158:100 -- _S-100 Validation Checks_ and/or S-158:123 --
 _S-123 Validation Checks_, provide validation checks which verify
 this conformance.
@@ -335,7 +333,7 @@ the guidelines from <<IHO_S_100,part=4c - Metadata - Data Quality>>.
 Data Producers must verify that non-quantitative attributes have been
 populated correctly when included in the S-123 dataset. Non-quantitative
 attributes must conform to the S-123 Feature Catalogue and the rules
-described in the S-123 Annex A -- _Data Classification and Encoding Guide_.
+described in <<AnnexA>>.
 IHO Publications S-158:100 -- _S-100 Validation Checks_ and/or S-158:123
 -- _S-123 Validation Checks_, provide validation checks which verify
 this conformance.
@@ -352,7 +350,7 @@ the guidelines from <<IHO_S_100,part=4c - Metadata - Data Quality>>.
 Data Producers must verify that quantitative attributes have been
 populated correctly when included in the S-123 dataset. Quantitative
 attributes must conform to the S-123 Feature Catalogue and the rules
-described in the S-123 Annex A -- _Data Classification and Encoding Guide_.
+described in <<AnnexA>>.
 Relevant metadata features and attributes must be used to indicate
 the accuracy where applicable. IHO Publications S-158:100 --
 _S-100 Validation Checks_ and/or S-158:123 -- _S-123 Validation Checks_,
@@ -371,7 +369,7 @@ Temporal consistency is applicable for S-123 and follows the guidelines
 from <<IHO_S_100,part=4c - Metadata - Data Quality>>.
 
 Data Producers must verify that the dataset conforms to rules described
-in the S-123 Annex A -- _Data Classification and Encoding Guide_.
+in <<AnnexA>>.
 IHO Publications S-158:100 -- _S-100 Validation Checks_ and/or S-158:123
 -- _S-123 Validation Checks_, provide validation checks which verify
 this conformance.
@@ -386,7 +384,7 @@ Temporal validity is applicable for S-123 and follows the guidelines
 from <<IHO_S_100,part=4c - Metadata - Data Quality>>.
 
 Data Producers must verify that the dataset conforms to rules described
-in the S-123 Annex A -- _Data Classification and Encoding Guide_.
+in <<AnnexA>>.
 IHO Publications S-158:100 -- _S-100 Validation Checks_ and/or S-158:123
 -- _S-123 Validation Checks_, provide validation checks which verify
 this conformance.
@@ -398,7 +396,7 @@ or S-158:123 are reported the dataset PASSES this test.
 ===== Temporal accuracy
 
 Temporal accuracy is applicable for S-123 and follows the guidelines
-from <<IHO_S_100,part=4c - Metadata - Data Quality>>.
+from <<IHO_S_100,part=4c>>.
 
 The Data Producer must verify the temporal accuracy of the S-123 dataset.
 
@@ -424,9 +422,8 @@ _S-123 Validation Checks_. As a minimum requirement, all datasets
 must conform to all checks that are categorized as "Critical" in S-158:100
 and S-158:123.
 
-S-123 datasets must conform to all mandatory elements of Annex A --
-_Data Classification and Encoding Guide_, where the word 'must' is
-used.
+S-123 datasets must conform to all mandatory elements of <<AnnexA>>,
+where the word 'must' is used.
 
 In addition to the above, dataset usability must be assessed against:
 
