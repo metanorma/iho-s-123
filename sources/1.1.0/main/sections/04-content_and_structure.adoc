@@ -729,10 +729,10 @@ S-123 defines attributes as either simple or complex.
 [[sec_4.3.5.1]]
 ===== Simple Attributes
 
-The types of simple attributes used in S-123 are listed in Annex A
--- _Data Classification and Encoding Guide_, clause 2.4.2. Descriptions
+The types of simple attributes used in S-123 are listed in <<AnnexA,clause=2.4.2>>.
+Descriptions
 of the simple attributes included in S-123 can also be found in
-Annex A.
+<<AnnexA>>.
 
 [[sec_4.3.5.2]]
 ===== Complex Attributes
