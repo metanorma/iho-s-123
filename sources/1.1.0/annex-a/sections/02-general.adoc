@@ -167,7 +167,7 @@ Each simple attribute (S) is assigned to one of attribute types in
 
 [[table_2.2]]
 .Simple attribute types
-[cols="3"]
+[cols="a,a,a"]
 |===
 h| Abbreviation h| Attribute type h| Description
 

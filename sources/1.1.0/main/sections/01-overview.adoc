@@ -75,7 +75,7 @@ Catalogue, and metadata.
 
 * [[[ISO_19108_2002,hidden(ISO 19108:2002)]]]
 
-* [[[ISO_10646_1,hidden(ISO 10646-1)]]]
+* [[[ISO_10646_1,hidden(ISO/IEC 10646-1)]]]
 
 * [[[AnnexA,dropid(repo:(current-metanorma-collection/IHO S-123 Annex A))]]],
 span:title[S-123 -- Annex A: Data Classification and Encoding Guide],
