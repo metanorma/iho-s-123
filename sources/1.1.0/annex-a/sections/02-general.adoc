@@ -1217,9 +1217,9 @@ edge of the product.
 The *DataCoverage* features within an MRS dataset must not overlap,
 however *DataCoverage* features from different MRS datasets may overlap.
 
-==== stem:[180 "unitsml(deg")] Meridian of Longitude
+==== stem:[180 "unitsml(deg)"] Meridian of Longitude
 
-Datasets must not cross the stem:[180 "unitsml(deg")] meridian of longitude.
+Datasets must not cross the stem:[180 "unitsml(deg)"] meridian of longitude.
 
 === Geographic names
 
