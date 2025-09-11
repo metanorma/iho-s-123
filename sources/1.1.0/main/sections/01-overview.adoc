@@ -77,6 +77,11 @@ Catalogue, and metadata.
 
 * [[[ISO_10646_1,hidden(ISO 10646-1)]]]
 
+* [[[AnnexA,dropid(repo:(current-metanorma-collection/IHO S-123 Annex A))]]],
+span:title[S-123 -- Annex A: Data Classification and Encoding Guide],
+span:edition[1.1.0],
+span:organization[International Hydrographic Organization]
+
 [[sec_1.4]]
 === Terms, definitions and abbreviations
 
