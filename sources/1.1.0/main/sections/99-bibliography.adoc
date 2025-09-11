@@ -1,7 +1,0 @@
-[bibliography]
-== Bibliography
-
-* [[[AnnexA,dropid(repo:(current-metanorma-collection/IHO S-123 Annex A))]]],
-span:title[S-123 -- Annex A: Data Classification and Encoding Guide],
-span:edition[1.1.0],
-span:organization[International Hydrographic Organization]
