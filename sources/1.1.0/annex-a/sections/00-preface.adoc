@@ -1,28 +1,24 @@
-
 [.preface]
-== Document History
+== metanorma-extension
 
+[.boilerplate]
+--
 Changes to this Specification are coordinated by the Nautical Information
 Provision Working Group, an IHO working group under HSSC. New editions
 will be made available via the IHO web site. Maintenance of the Specification
 shall conform to IHO Resolution 2/2007 (as amended).
+--
 
-[cols="a,a,a,a",options="unnumbered"]
-|===
-h| Version Number h| Date h| Approved By h| Purpose
+=== document history
 
-| 0.0.0 | 30.04.2017 | |
-
-| 1.0.0 RC1 | 17-08-2017 | |
-
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-| | | |
-
-|===
+[source,yaml]
+----
+- date:
+  - type: updated
+    value: 2017-04-30
+  edition: "0.0.0"
+- date:
+  - type: updated
+    value: 2017-08-17
+  edition: "1.0.0 RC1"
+----
