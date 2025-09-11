@@ -4,7 +4,7 @@
 :doctype: specification
 :annex-id: A
 :title: Marine Radio Services Product Specification
-:title-annex: 
+:title-annex: Data Classification and Encoding Guide
 :edition: 1.1.0
 :language: en
 :published-date: 2025-05-01
@@ -45,3 +45,5 @@ include::sections/11-association-roles.adoc[]
 include::sections/12-descriptions.adoc[]
 
 include::sections/13-complex-attributes.adoc[]
+
+include::sections/99-bibliography.adoc[]

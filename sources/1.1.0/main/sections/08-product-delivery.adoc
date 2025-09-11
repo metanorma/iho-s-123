@@ -233,7 +233,7 @@ h| File Types h| Extensions h| Comment
 Style Sheet (CSS) information and must not contain embedded Javascript
 or other dynamic content, for example DHTML, Flash etc.
 | XML | XML documents must only be included in accordance with guidance
-provided within the Data Classification and Encoding Guide (Annex A).
+provided within the Data Classification and Encoding Guide (<<AnnexA>>).
 This may include a Schema for the validation of XML documents.
 | *Picture* | TIF | Baseline TIFF 6.0.
 |===

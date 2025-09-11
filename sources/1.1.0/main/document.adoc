@@ -36,3 +36,5 @@ include::sections/08-product-delivery.adoc[]
 include::sections/09-portrayal.adoc[]
 
 include::sections/10-metadata.adoc[]
+
+include::sections/99-bibliography.adoc[]

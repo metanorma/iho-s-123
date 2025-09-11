@@ -106,8 +106,8 @@ document.
 
 Type: The prefix pass-format:metanorma[(C)] indicates that the attribute
 is a complex attribute. Complex attributes are aggregates of other
-attributes that can be simple type or complex type (see Product Specification
-main document clause 12.3). The prefix (S) indicates that the attribute
+attributes that can be simple type or complex type (see
+<<S123,clause=12.3>>). The prefix (S) indicates that the attribute
 is a sub-attribute of a complex attribute. Complex attributes that
 are sub-attributes of a complex attribute, and their sub-attributes,
 are indicated by indentation of the attribute name in the S-123 Attribute
