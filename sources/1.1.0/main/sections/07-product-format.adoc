@@ -111,7 +111,7 @@ dataset.
 [[sec_7.11]]
 === Data extent
 
-Datasets must not cross the 180° meridian of longitude.
+Datasets must not cross the stem:[180"unitsml(deg)"] meridian of longitude.
 
 [[sec_7.12]]
 === Sequence of objects

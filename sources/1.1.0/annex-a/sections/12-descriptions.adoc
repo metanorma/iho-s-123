@@ -1946,7 +1946,9 @@ and scripts in use.
 | [underline]#IHO Definition:# Location (address) for online access
 using a URL/URI address or similar addressing scheme.
 
-[underline]#Remarks:#•For S-123, the attribute type URI is constrained
+[underline]#Remarks:#
+
+* For S-123, the attribute type URI is constrained
 to conformance with the HTTP or HTTPS protocols; that is, the character
 string must commence with http:// or https://.
 

@@ -228,7 +228,9 @@ it was made.
 
 *Bearing Information* (see <<sec_13.2>>)
 
-[underline]#Remarks:#•No remarks.
+[underline]#Remarks:#
+
+* No remarks.
 
 |===
 

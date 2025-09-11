@@ -545,7 +545,7 @@ years.
 ===== Predefined derived types
 
 <<table_2.5>> presents the following predefined derived types which
-are described in S-100 (§ 1-4.6):
+are described in <<S100,clause=1-4.6>>:
 
 [[table_2.5]]
 .Predefined derived types
@@ -681,7 +681,7 @@ on available information and allowed format for the particular attribute.
 The definition of the attribute will indicate if it must take a complete
 value (type _Date_ or _DA_) or is allowed to take a truncated value
 (type _S100_TruncatedDate_ or _TD_). Complete and truncated dates
-are different value types (see S-100 § 1-4.5.2 Table 1-2).
+are different value types (see <<S100,clause=1-4.5.2,table=1-2>>).
 
 For attributes that use the complete date type (type _Date_ or _DA_),
 all their components (year, month, and day) must be specified.
@@ -694,8 +694,8 @@ be specified using exactly 4 digits.
 ===== Complete Dates
 
 Dates (except truncated dates, see the following clause) must be encoded
-in conformance with the Date format as specified in S-100 Ed. 5.2.0
-(§ 1-4.5.2) which is the same as the DA format in <<table_2.2>> in
+in conformance with the Date format as specified in
+<<S100,clause=1-4.5.2>> which is the same as the DA format in <<table_2.2>> in
 this document. The data values have to be provided in accordance with
 the Gregorian Calendar starting with four digits for the year, two
 digits for the month and two digits for the day.
@@ -714,12 +714,12 @@ both will use the "GML format" above.
 In Truncated Dates one or more components (year, month, or day) of
 the date is not specified. Truncated date values must be encoded in
 conformance with the S100_TruncatedDate format or equivalent as specified
-in S-100 (§§ 1-4.5.2 and 3-9) which is the same as the _TD_ format
+in <<S100,clause=1-4.5.2>> and <<S100,clause=3-9>> which is the same as the _TD_ format
 in Table 2-2 in this document. If encoding attributes which can take
 truncated date values (e.g., *fixedDateRange*, *periodicDateRange*,
 *reportedDate*) and no specific year, month, or day is required, the
 values must be encoded in conformance with the truncated date format
-as specified in S-100 (§§ 1-4.5.2 and 3-9), using the format-specific
+as specified in <<S100,clause=1-4.5.2>> and <<S100,clause=3-9>>, using the format-specific
 type for XML/GML.
 
 To encode partial dates in the XML/GML data format:
@@ -748,7 +748,7 @@ the dashes).
 
 ===== Start and end of ranges
 
-In accordance with S-100 § 3-8, the start and end instants of a range
+In accordance with <<S100,clause=3-8>>, the start and end instants of a range
 or period are included in the range or period.
 
 [example]
@@ -767,7 +767,7 @@ the period is encoded as pass-format:metanorma[----01--], the period
 ends at 24:00:00 on 31 January each year.
 
 NOTE: Particular care should be taken if the end date is 28 or 29
-February. S-100 § 3-8.3 explains the implications for end of February.
+February. <<S100,clause=3-8.3>> explains the implications for end of February.
 For example, the truncated date pass-format:metanorma[----02--] will
 be interpreted as 29 February in leap years and 28 February in non-leap
 years, while pass-format:metanorma[----0228] will be interpreted as
@@ -1217,9 +1217,9 @@ edge of the product.
 The *DataCoverage* features within an MRS dataset must not overlap,
 however *DataCoverage* features from different MRS datasets may overlap.
 
-==== 180° Meridian of Longitude
+==== stem:[180 "unitsml(deg")] Meridian of Longitude
 
-Datasets must not cross the 180° meridian of longitude.
+Datasets must not cross the stem:[180 "unitsml(deg")] meridian of longitude.
 
 === Geographic names
 
