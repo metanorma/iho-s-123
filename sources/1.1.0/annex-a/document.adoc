@@ -1,7 +1,10 @@
 = Data Classification and Encoding Guide - Annex A
 :series: S
 :docnumber: 123
-:doctype: standard
+:doctype: specification
+:annex-id: A
+:title: Marine Radio Services Product Specification
+:title-annex: 
 :edition: 1.1.0
 :language: en
 :published-date: 2025-05-01

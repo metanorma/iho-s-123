@@ -1,7 +1,7 @@
-= MARINE RADIO SERVICES PRODUCT SPECIFICATION
+= Marine Radio Services Product Specification
 :series: S
 :docnumber: 123
-:doctype: standard
+:doctype: specification
 :edition: 1.1.0
 :language: en
 :published-date: 2025-05-01
