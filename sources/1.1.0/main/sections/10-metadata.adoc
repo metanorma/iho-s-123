@@ -61,7 +61,7 @@ exchange datasets and support files
 | - | - |
 
 | Attribute | identifier | Uniquely identifies this exchange catalogue 
- 1 | S100_ExchangeCatalogueIdentifier | 0..1 multiplicity in <<IHO_S_100>> restricted to 1 in S-123
+| 1 | S100_ExchangeCatalogueIdentifier | 0..1 multiplicity in <<IHO_S_100>> restricted to 1 in S-123
 
 | Attribute | contact | Details about the issuer of this exchange catalogue | 1
 | S100_CataloguePointOfContact | 0..1 multiplicity in <<IHO_S_100>> restricted to 1 in S-123
