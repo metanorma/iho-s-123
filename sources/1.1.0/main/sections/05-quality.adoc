@@ -30,7 +30,7 @@ For S-123 the following data quality elements have been included:
 [[sec_5.2]]
 === Quality measure elements
 
-The data quality measures recommended in S-97 (Part C) and their applicability
+The data quality measures recommended in <<S97,part=C>> and their applicability
 in S-123 are indicated in <<table_5.1>> below. NA indicates the measure
 is not applicable. This table reproduces the first 4 columns of the
 data quality checklist recommended elements and replaces the final
@@ -264,7 +264,7 @@ Topological consistency is applicable for S-123 and follows the guidelines
 from <<IHO_S_100,part=7 -- Spatial Schema>>.
 
 Data Producers must verify that the dataset conforms to the requirements
-for topology set out in Section 4 of this document. IHO Publications
+for topology set out in <<sec_4>>. IHO Publications
 S-158:100 -- _S-100 Validation Checks_ and/or S-158:123 --
 _S-123 Validation Checks_, provide validation checks which verify
 this conformance.

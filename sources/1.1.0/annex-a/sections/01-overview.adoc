@@ -55,13 +55,11 @@ Working Group (NIPWG) and must be made available via the IHO web site.
 
 === Terms and definitions
 
-For terms and definitions, see the Marine Radio Services Product Specification,
-Clause 1.4.2.
+For terms and definitions, see <<S123,clause=1.4.2>>.
 
 === Abbreviations
 
-For a list of abbreviations, see the Marine Radio Services Product
-Specification, Clause 1.4.3.
+For a list of abbreviations, see <<S123,clause=1.4.3>>.
 
 === Use of language
 
@@ -78,4 +76,4 @@ or recommended.
 === Maintenance
 
 Changes to the Data Classification and Encoding Guide must occur in
-accordance with the S-123 Product Specification clause 1.7.
+accordance with <<S123,clause=1.7>>.
