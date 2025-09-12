@@ -20,7 +20,7 @@ an optional attribute mandatory).
 
 In some cases (if provided by the producer or exchange set packager)
 the metadata may be repeated in a language other than English.
-See <<IHO_S_100,part=17>> Clauses 17-4.6 - 17-4.8 for guidance on
+See <<IHO_S_100,part=17,clause=17-4.6>> - <<IHO_S_100,part=17,clause=17-4.8>> for guidance on
 encoding of metadata in languages other than English.
 
 [[sec_10.2]]
@@ -391,9 +391,9 @@ h| Role Name h| Name h| Description h| Mult. h| Type h| Remarks
 _False_ indicates an uncompressed resource
 
 | Attribute | digitalSignatureReference | Specifies the algorithm used to compute digitalSignatureValue | 1
-| S100_SE_DigitalSignatureReference (see Part 15) |
+| S100_SE_DigitalSignatureReference (see <<IHO_S_100,part=15>>) |
 
-| Attribute | digitalSignatureValue | Value derived from the digital signature | 1..* | S100_SE_DigitalSignature(see Part 15) | The value resulting from application of digitalSignatureReferenceImplemented as the digital signature format specified in <<IHO_S_100,part=15>>
+| Attribute | digitalSignatureValue | Value derived from the digital signature | 1..* | S100_SE_DigitalSignature (see <<IHO_S_100,part=15>>) | The value resulting from application of digitalSignatureReferenceImplemented as the digital signature format specified in <<IHO_S_100,part=15>>
 | Attribute | defaultLocale | Default language and character set used in the support file | 0..1 | PT_Locale | In absence of defaultLocale the language is English in UTF-8A support file is expected to use only one as locale. Additional support files can be created for other locales.
 | Attribute | supportedResource | Identifier of the resource supported by this support file | 0..* | CharacterString | Conventions for identifiers are detailed in <<IHO_S_100,part=15>>. S-100 allows file URI, digital signature or cryptographic hash checksums to be used
 | Attribute | resourcePurpose | The purpose of the supporting resource | 0..1 | S100_ResourcePurpose | Identifies how the supporting resource is used
@@ -488,7 +488,7 @@ Default is new edition
 | S100_SE_DigitalSignatureReference(see <<IHO_S_100,part=15>>) |
 
 | Attribute | digitalSignatureValue | Value derived from the digital signature | 1..* | S100_SE_DigitalSignature(see <<IHO_S_100,part=15>>)
-| The value resulting from application of _digitalSignatureReference_ Implemented as the digital signature format specified in Part 15
+| The value resulting from application of _digitalSignatureReference_ Implemented as the digital signature format specified in <<IHO_S_100,part=15>>
 | Attribute | compressionFlag | Indicates if the resource is compressed | 1 | Boolean
 | _True_ indicates a compressed resource +
 _False_ indicates an uncompressed resource

@@ -10,7 +10,7 @@ data products that conform to the S-123 specification.
 
 The S-123 specification contains an application schema (UML model)
 describing the conceptual domain model in terms of classes and relationships,
-and a Feature Catalogue (see S-123 Annex C) that specifies the data
+and a Feature Catalogue (see <<S123,annex=C>>) that specifies the data
 model, i.e., specifies the data model types and associations corresponding
 to the various classes and relationships in the application schema.
 
@@ -22,7 +22,7 @@ it is used (and where there might be confusion, it is written out
 in full as feature class/type/instance).
 
 The model defines real world entities as a combination of descriptive
-and spatial characteristics (S-123 MRS Product Specification clause 6).
+and spatial characteristics (<<S123,clause=6>>).
 
 This clause of the DCEG contains general information needed to understand
 the encoding rules and describes fundamental common rules and constraints.
@@ -1077,7 +1077,7 @@ is encoded using the *InclusionType* association class.
 Certain features and information types may be permitted or required
 to have associations to other feature or information types. The allowed
 or mandatory associations for a feature/information type are shown
-in the application schema (clause 4 of the Product Specification)
+in the application schema (<<S123,clause=4>>)
 and listed in the documentation for individual types in this Annex.
 Definitions of the associations and roles are also given in the DCEG.
 
@@ -1177,9 +1177,8 @@ of the dataset.
 Discovery metadata is encoded in the exchange catalogue. S-123 uses
 the same classes and attributes for discovery metadata as S-100, but
 adds certain product-specific restrictions. The classes and attributes
-for generic discovery metadata are defined in S-100 Part 17. Constraints
-and restrictions specific to S-123 are defined in the S-123 Product
-Specification.
+for generic discovery metadata are defined in <<S100,part=17>>. Constraints
+and restrictions specific to S-123 are defined in <<S123>>.
 
 The schema for the exchange catalogue file (CATALOG.XML) for S-123
 is the same as the S-100 generic schemas and is available from the
@@ -1189,7 +1188,7 @@ schema server (https://schemas.s100dev.net).
 
 Dataset header metadata contains structural and discovery metadata
 that apply to the whole dataset and are encoded in the dataset file.
-The elements are described in S-100 Part 10b.
+The elements are described in <<S100,part=10b>>.
 
 ==== Dataset units
 

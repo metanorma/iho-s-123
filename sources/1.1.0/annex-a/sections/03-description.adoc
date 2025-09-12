@@ -120,7 +120,7 @@ are shown by including the super-classes and their associations in
 the diagram.
 
 The usual UML conventions apply. For explanations of standard UML
-notations, see S-100 Part 1. For explanations of the conventions used
+notations, see <<S100,part=1>>. For explanations of the conventions used
 for associations, see <<sec_2.5>> in this DCEG.
 
 Association ends and multiplicities: A lower bound of 0 in the multiplicity
