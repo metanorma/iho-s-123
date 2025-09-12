@@ -1,6 +1,6 @@
 image::./sources/3.0.0/images/figure-s123-logo.svg[S123_logo__signalFlagsSpellingS123,248,120]
 
-= IHO S-123 Bathymetric Surface Product Specification
+= IHO S-123 Marine Radio Services Product Specification
 
 image:https://github.com/metanorma/S-123-Product-Specification/actions/workflows/generate.yml/badge.svg["Build Status", link="https://github.com/metanorma/S-123-Product-Specification/actions/workflows/generate.yml"]
 
@@ -11,7 +11,7 @@ This document is available in its rendered forms here:
 == Purpose
 
 This is the IHO repository for developing the next edition of
-the S-123 Bathymetric Surface Product Specification.
+the S-123 Marine Radio Services Product Specification.
 
 WARNING: The contents of this repository are in draft form and are not necessarily in force yet.
 Please refer to the final version published on the official
